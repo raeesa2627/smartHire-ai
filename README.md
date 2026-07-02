@@ -1,36 +1,202 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 SmartHire AI – Intelligent Candidate Discovery Platform
 
-## Getting Started
+AI-powered recruitment platform built for the **India Runs Hackathon**.
 
-First, run the development server:
+SmartHire AI helps recruiters automate resume screening using Artificial Intelligence. Instead of relying on simple keyword matching, the platform understands job descriptions, analyzes resumes, ranks candidates, and provides explainable hiring recommendations.
+
+---
+
+# 📌 Problem Statement
+
+Traditional recruitment platforms depend heavily on keyword matching, resulting in poor candidate recommendations and lengthy manual screening.
+
+SmartHire AI solves this by using AI-driven semantic matching to identify the most relevant candidates based on skills, experience, education, projects, and overall job fit.
+
+---
+
+# ✨ Features
+
+- 📄 Multi Resume Upload
+- 🤖 AI Powered Resume Analysis
+- 📑 Automatic Resume Parsing
+- 💼 Job Management
+- 👥 Candidate Management
+- ⭐ AI Candidate Ranking
+- 📊 Recruiter Dashboard
+- 📈 Match Score Calculation
+- 💡 Explainable AI Recommendations
+- 📥 Export Ranked Candidates to XLSX
+- ⚡ Fast Candidate Search
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+- Next.js 15
+- React
+- TypeScript
+- Tailwind CSS
+
+### Backend
+
+- Next.js API Routes
+- Node.js
+
+### Database
+
+- MongoDB
+- Mongoose
+
+### AI
+
+- Google Gemini API
+- PDF Resume Parsing
+
+---
+
+# 🏗 System Workflow
+
+```text
+Recruiter
+      │
+      ▼
+Create Job
+      │
+      ▼
+Upload Resume(s)
+      │
+      ▼
+Resume Parsing
+      │
+      ▼
+Extract Skills & Experience
+      │
+      ▼
+AI Candidate Analysis
+      │
+      ▼
+Candidate Ranking
+      │
+      ▼
+Recruiter Dashboard
+      │
+      ▼
+Export XLSX
+```
+
+---
+
+# 📷 Screenshots
+
+## Dashboard
+
+(Add Dashboard Screenshot)
+
+---
+
+## Job Management
+
+(Add Jobs Screenshot)
+
+---
+
+## Candidate Analysis
+
+(Add Candidate Analysis Screenshot)
+
+---
+
+## AI Ranking
+
+(Add AI Ranking Screenshot)
+
+---
+
+# ⚙ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/raeesa2627/smarthire-ai.git
+```
+
+Move into the project
+
+```bash
+cd smarthire-ai
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create `.env`
+
+```env
+MONGODB_URI=your_mongodb_uri
+GEMINI_API_KEY=your_gemini_api_key
+```
+
+Run
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 📂 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src
+ ├── app
+ ├── api
+ ├── components
+ ├── lib
+ ├── models
+ ├── utils
+ └── types
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+# 🎯 Future Enhancements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Interview Scheduling
+- Email Notifications
+- ATS Integration
+- LinkedIn Profile Matching
+- AI Interview Assistant
+- Recruiter Analytics
+- Team Collaboration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# 👩‍💻 Developer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Raeesa Tanweer**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Computer Science Engineering (AI & ML)
+
+Srinivasa Ramanujan Institute of Technology
+
+---
+
+# 🏆 Hackathon
+
+**India Runs Hackathon**
+
+Problem Statement:
+**Intelligent Candidate Discovery using AI**
+
+---
+
+## ⭐ Thank You
+
+Built with ❤️ using Next.js, MongoDB, Gemini AI and TypeScript.
+## ⭐ Thank You
+
+Built with ❤️ using Next.js, MongoDB, Gemini AI and TypeScript.
